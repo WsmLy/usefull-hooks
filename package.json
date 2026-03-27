@@ -1,14 +1,23 @@
 {
   "name": "MyHooks",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
+  "description": "React Hooks Demo",
+  "type": "module",
   "scripts": {
-    "build": "tsc"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
-    "typescript": "^5.5.3"
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.5.3",
+    "vite": "^4.3.9"
   },
   "private": true
 }
