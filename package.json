@@ -1,7 +1,7 @@
 {
-  "name": "MyHooks",
+  "name": "usefull-hooks",
   "version": "1.0.0",
-  "description": "React Hooks Demo",
+  "description": "Most usefull React Hooks",
   "type": "module",
   "scripts": {
     "dev": "vite",
